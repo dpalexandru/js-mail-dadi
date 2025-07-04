@@ -5,3 +5,16 @@ const invitati = ["ciccio@gmail.com", "pasticcio@gmail.com", "pippo@gmail.com","
 //chiedo la mail all'utente e la visualizzo
 const email = prompt("Inserisci la tua email:");
 console.log(`Hai inserito: ${email}`);
+
+
+// creo variabile booleana preste o no
+presente = false;
+
+// verifico se la mail inserita è presente negli initati
+
+for (i=0; i<invitati.length; i++)
+  if (email === invitati[i]){
+        presente = true 
+      }
+ 
+
