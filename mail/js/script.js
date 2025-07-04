@@ -17,4 +17,11 @@ for (i=0; i<invitati.length; i++)
         presente = true 
       }
  
+//Stampo il risultato invitato o non invitato
+if (presente === false) {
+    console.log ('Non sei invitato.')
+}
+else {
+  console.log ('Ti aspettiamo alla fsta porta qualcosa da casa.')
+}
 
